@@ -24,8 +24,3 @@ pl4 <- pl3 + theme_economist_white() + scale_x_continuous(name='Corruption Perce
 #Setting the Y Axis and the Title
 pl5 <- pl4 + scale_y_continuous(name='Human Development Index, 2011 (1=Best)', limits=c(0.2,1),breaks=c(0.2,0.4,0.6,0.8,1.0)) + ggtitle('Corruption and Human Development')
 print(pl5)
-
-
-
-
-pl3
